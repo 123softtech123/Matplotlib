@@ -1,7 +1,7 @@
 #Plot revenue vs time
 """If you were asked to plot y_values vs. x_values, you would use: plt.plot(x_values, y_values)"""
 
-import codecademylib
+#import codecademylib
 from matplotlib import pyplot as plt
 
 time = [0, 1, 2, 3, 4]
