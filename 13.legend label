@@ -1,0 +1,14 @@
+import codecademylib
+from matplotlib import pyplot as plt
+x = [2000,2001,2003,2004,2005]
+y1 = [20,30,25,35,15]
+y2 = [100,40,80,20,120]
+
+plt.plot(x,y1,color ="pink",marker = "o")
+plt.plot(x,y2,color = "gray",marker = "o")
+plt.title("Two Lines on One Graph")
+plt.xlabel("Amazing X-axis")
+plt.ylabel("incredible Y-axis")
+legend_lables =["y1","y2"]
+plt.legend(legend_lables,loc=0)
+plt.show()
