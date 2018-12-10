@@ -12,3 +12,4 @@ plt.axis('equal')
 plt.title('Hardest Topics')
 
 plt.show()
+plt.savefig("my_pie_chart.png")
